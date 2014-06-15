@@ -198,7 +198,7 @@ header {
   <li><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-fieldset-element">fieldset</a> element is required to map to an ARIA <a href="http://www.w3.org/TR/wai-aria/roles#group">group role</a></li>
   <li>The ARIA implementation <a href="http://www.w3.org/TR/wai-aria-implementation/#mapping_role_table">role mapping table</a> states the ARIA role=&quot;group&quot; maps to ROLE_SYSTEM_GROUPING in MSAA and Iaccessible2.</li>
   <li>create a <a href="https://dl.dropboxusercontent.com/u/377471/browser-tests/fieldset.html">test file</a></li>
-  <li>Open the file in Internet Explorer 11, Firefox 29, Chrome 35 on Windows 81. and check the role exposed for fieldset matches the role stated in the mapping guide by using an object inspection tool such as <a href="http://www.paciellogroup.com/resources/aviewer">aViewer</a> or <a href="http://accessibility.linuxfoundation.org/a11yweb/util/accprobe/">a11y-probe</a>.</li>
+  <li>Open the file in Internet Explorer 11, Firefox 29, Chrome 35 on Windows 8.1 and check the role exposed for <code>fieldset</code> matches the role stated in the mapping guide by using an object inspection tool such as <a href="http://www.paciellogroup.com/resources/aviewer">aViewer</a> or <a href="http://accessibility.linuxfoundation.org/a11yweb/util/accprobe/">a11y-probe</a>.</li>
   <li>Record results and file bugs in failure cases.</li>
 </ol>
 <h2>Results:</h2>
@@ -483,7 +483,7 @@ Not implemented <img src="http://www.html5accessibility.com/images/firefox.png" 
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-progress-element">progress</a> element </td>
       <td>progressbar role, with, if the progress bar is determinate, the aria-valuemax property set to the maximum value of the progress bar, the aria-valuemin property set to zero, and the aria-valuenow property set to the current value of the progress bar </td>
-      <td>not tested yet</td>
+      <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> , <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
     </tr>
     <tr class="na">
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-script-element">script</a> element </td>
@@ -567,9 +567,9 @@ Not implemented <img src="http://www.html5accessibility.com/images/firefox.png" 
 </caption>
   <thead>
     <tr>
-      <th width="344">Language feature </th>
-      <th width="558">Default implicit ARIA semantic </th>
-      <th width="152">interop status</th>
+      <th width="304">Language feature </th>
+      <th width="545">Default implicit ARIA semantic </th>
+      <th width="205">interop status</th>
     </tr>
   </thead>
   <tbody>
