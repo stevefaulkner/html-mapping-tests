@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>select element</title>
+</head>
+
+<body>
+<h1>label wrapped</h1>
+  <label>name 
+    <select title="description">
+      <option value="1">a</option>
+      <option value="2">b</option>
+    </select>
+  </label>
+<h1>label for/id</h1>
+
+    <label for="x">name</label> 
+<select id="x" title="description">
+      <option value="1">a</option>
+      <option value="2">b</option>
+    </select>
+
+  <h2>notes:
+  </h2>
+  <h3>Firefox 29 &amp; Chrome 35 on Windows (correct): </h3>
+  <ul>
+    <li>In both cases the accessible name for the select is 'name'</li>
+    <li>In both cases the accessible decription for the select is 'description'</li>
+  </ul>
+  <h3>For IE 11</h3>
+  <ul>
+    <li>label wrapped accessible name : &quot;name a b&quot; = <strong>incorrect</strong></li>
+    <li>label wrapped accessible description: <em>none</em> = <strong>incorrect</strong></li>
+    <li>for/id accessible name : &quot;name&quot;</li>
+    <li>label wrapped accessible description: <em>none</em> = <strong>incorrect</strong></li>
+</ul>
+  <p>&nbsp;</p>
+</body>
+</html>
