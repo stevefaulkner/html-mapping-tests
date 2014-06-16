@@ -220,13 +220,6 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> , <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#the-base-element">base</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A (no requirement)</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-datalist-element">datalist</a> element </td>
       <td>listbox role, with the aria-multiselectable property set to "false" </td>
@@ -235,7 +228,7 @@ header {
       <p><img src="http://www.html5accessibility.com/images/cross.gif" alt="bug" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> (needs bug)</p></td>
       <td class="support">PASS</td>
     </tr>
-    <tr>
+   <!-- <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element">details</a> element </td>
       <td>aria-expanded state set to "true" if the element's <a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#attr-details-open">open</a> attribute is present, and set to "false" otherwise </td>
       <td><a href="browser-tests/details.html">details element</a></td>
@@ -252,6 +245,7 @@ header {
       Not implemented <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">, <img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"></td>
       <td class="nosupport">FAIL</td>
     </tr>
+    -->
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-fieldset-element">fieldset</a> element </td>
       <td>group role       </td>
@@ -266,13 +260,6 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> <br>
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> (<a href="http://connect.microsoft.com/IE/feedback/details/804723/html5-structural-elements-not-exposed-via-accessibility-api">IE bug</a>)</td>
       <td class="support">PASS</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#the-head-element">head</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-header-element">header</a> element that is not a descendant of an <a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element">article</a> or <a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-section-element">section</a> element. </td>
@@ -290,13 +277,6 @@ header {
         <p> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20">(<a href="https://code.google.com/p/chromium/issues/detail?id=384723">chrome bug</a>)</p>
       <p><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20"></p></td>
       <td class="nosupport">FAIL</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">html</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-img-element">img</a> element whose <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-alt">alt</a> attribute's value is empty </td>
@@ -321,13 +301,6 @@ header {
       ? for intermediate</p></td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-input-element">input</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-input-type">type</a> attribute in the <a data-anolis-xref="attr-input-type-color" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#color-state-%28type=color%29">Color</a> state </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-input-element">input</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-input-type">type</a> attribute in the <a data-anolis-xref="attr-input-type-date" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-%28type=date%29">Date</a> state </td>
       <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a>, with the aria-readonly property set to "true" if the element has a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-input-readonly">readonly</a> attribute </td>
@@ -351,20 +324,6 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"><br>
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> (<a href="https://code.google.com/p/chromium/issues/detail?id=384802">chrome bug</a> generic bug for readonly on input)</td>
       <td class="support">PASS</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-input-element">input</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-input-type">type</a> attribute in the <a data-anolis-xref="attr-input-type-file" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#file-upload-state-%28type=file%29">File Upload</a> state </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-input-element">input</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-input-type">type</a> attribute in the <a data-anolis-xref="attr-input-type-hidden" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#hidden-state-%28type=hidden%29">Hidden</a> state </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-input-element">input</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-input-type">type</a> attribute in the <a data-anolis-xref="attr-input-type-month" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#month-state-%28type=month%29">Month</a> state </td>
@@ -468,20 +427,6 @@ header {
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> (<a href="https://code.google.com/p/chromium/issues/detail?id=384802">chrome bug</a> generic bug for readonly on input)</td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-keygen-element">keygen</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-label-element">label</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#the-link-element">link</a> element that creates a <a href="http://www.w3.org/html/wg/drafts/html/master/links.html#hyperlink">hyperlink</a></td>
       <td>link role </td>
@@ -499,41 +444,6 @@ header {
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> (<a href="http://connect.microsoft.com/IE/feedback/details/804723/html5-structural-elements-not-exposed-via-accessibility-api">IE bug</a>)</td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-map-element">map</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-menu-element">menu</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#attr-menu-type">type</a> attribute in the <a data-anolis-xref="popup menu state" href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#popup-menu-state">popup menu</a> state </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-menuitem-element">menuitem</a> element </td>
-      <td>menuitem role </td>
-      <td><a href="browser-tests/menu.html">menu/menuitem elements</a></td>
-      <td>? - not implemented</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#the-meta-element">meta</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-meter-element">meter</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-nav-element">nav</a> element </td>
       <td>navigation role</td>
@@ -541,20 +451,6 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> <br>
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> (<a href="http://connect.microsoft.com/IE/feedback/details/804723/html5-structural-elements-not-exposed-via-accessibility-api">IE bug</a>)</td>
       <td class="support">PASS</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-noscript-element">noscript</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-optgroup-element">optgroup</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-option-element">option</a> element that is in a <a data-anolis-xref="concept-select-option-list" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#concept-select-option-list">list of       options</a></td>
@@ -572,33 +468,12 @@ header {
       <td class="support">PASS</td>
     </tr>
     <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-param-element">param</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://picture.responsiveimages.org/">picture</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-progress-element">progress</a> element </td>
       <td>progressbar role, with, if the progress bar is determinate, the aria-valuemax property set to the maximum value of the progress bar, the aria-valuemin property set to zero, and the aria-valuenow property set to the current value of the progress bar </td>
       <td><a href="browser-tests/progress.html">progress element</a></td>
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> ,<br>
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20">  (needs bug)</td>
       <td class="support">PASS</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-script-element">script</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-select-element">select</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-select-multiple">multiple</a> attribute </td>
@@ -629,54 +504,12 @@ header {
       <td class="support">PASS</td>
     </tr>
     <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-source-element">source</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#the-style-element">style</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-template-element">template</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-textarea-element">textarea</a> element </td>
       <td>textbox role, with the aria-multiline property set to "true", and the aria-readonly property set to "true" if the element has a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-textarea-readonly">readonly</a> attribute </td>
       <td><a href="browser-tests/disabled-elements.html">disabled elements</a></td>
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> , <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"><br>
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> for readonly (<a href="https://code.google.com/p/chromium/issues/detail?id=384802">chrome bug</a> generic bug for readonly on input) <br></td>
       <td class="support">PASS</td>
-    </tr>
-    <tr>
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#the-th-element">th</a> element that is a <a href="http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#sorting-capable-th-element">sorting-capable</a> <a href="http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#the-th-element">th</a> element whose column key <a data-anolis-xref="column key ordinality" href="http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#column-key-ordinality">ordinality</a> is 1 </td>
-      <td>columnheader role, with the aria-sort state set to "ascending" if the element's <span data-anolis-xref="#column-sort-direction">column sort direction is <em>normal</em>, and "descending" otherwise. </span></td>
-      <td>&nbsp;</td>
-      <td>? - not implemented</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#the-title-element">title</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-track-element">track</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
     </tr>
     <tr>
       <td>Element that is <a data-anolis-xref="concept-fe-disabled" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#concept-fe-disabled">disabled</a></td>
@@ -718,13 +551,6 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> , <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-address-element">address</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element">article</a> element </td>
       <td>article role </td>
@@ -741,13 +567,6 @@ header {
       <img src="http://www.html5accessibility.com/images/cross.gif" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> (<a href="http://connect.microsoft.com/IE/feedback/details/804723/html5-structural-elements-not-exposed-via-accessibility-api">IE bug</a>)</td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-audio-element">audio</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-body-element">body</a> element </td>
       <td>document role </td>
@@ -762,80 +581,6 @@ header {
       <td><a href="browser-tests/buttons.html">button type elements</a></td>
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> , <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
       <td class="support">PASS</td>
-    </tr>
-    <tr>
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element">details</a> element </td>
-      <td>group role </td>
-      <td><a href="browser-tests/details.html">details element</a></td>
-      <td><p><img src="http://www.html5accessibility.com/images/cross.png" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> <br>
-        Not implemented</p>
-        <p> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"></p></td>
-      <td class="nosupport">FAIL</td>
-    </tr>
-    <tr>
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element">dialog</a> element </td>
-      <td>dialog role </td>
-      <td><a href="browser-tests/dialog.html">dialog element</a></td>
-      <td><p><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> <br>
-        Not implemented</p>
-      <p> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"></p></td>
-      <td class="nosupport">FAIL</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-embed-element">embed</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">h1</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">h2</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">h3</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">h4</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">h5</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">h6</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-    </tr>
-    <tr>
-      <td class="na"><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-iframe-element">iframe</a> element </td>
-      <td class="na"><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
-      <td class="na">N/A</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-img-element">img</a> element whose <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-alt">alt</a> attribute's value is absent </td>
@@ -901,20 +646,6 @@ header {
       <td class="support">PASS</td>
     </tr>
     <tr>
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-menu-element">menu</a> element with a <a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#attr-menu-type">type</a> attribute in the <a data-anolis-xref="toolbar state" href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#toolbar-state">toolbar</a> state </td>
-      <td>toolbar role </td>
-      <td>&nbsp;</td>
-      <td>? not implemented</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-object-element">object</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-ol-element">ol</a> element </td>
       <td>list role </td>
       <td><a href="browser-tests/list.html">ol/ul/li elements</a></td>
@@ -925,8 +656,8 @@ header {
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-option-element">option</a> element that is in a <a data-anolis-xref="concept-select-option-list" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#concept-select-option-list">list of       options</a> of a <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-select-element">select</a> element with no <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-select-multiple">multiple</a> attribute and with a <a data-anolis-xref="concept-select-size" href="http://www.w3.org/html/wg/drafts/html/master/forms.html#concept-select-size">display size</a> equal to 1 </td>
       <td>option role </td>
       <td><a href="browser-tests/select-test.html">select element</a></td>
-      <td>not tested yet</td>
-      <td>&nbsp;</td>
+      <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
+      <td class="support">PASS</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#the-output-element">output</a> element </td>
@@ -953,13 +684,6 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-summary-element">summary</a> element with no <a href="http://www.w3.org/html/wg/drafts/html/master/dom.html#interactive-content-0">Interactive content</a> descendant </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-ul-element">ul</a> element </td>
       <td>list role </td>
@@ -967,26 +691,19 @@ header {
       <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
       <td class="support">PASS</td>
     </tr>
-    <tr class="na">
-      <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-video-element">video</a> element </td>
-      <td><a data-anolis-xref="concept-role-none" href="http://www.w3.org/html/wg/drafts/html/master/dom.html#concept-role-none">No role</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
     <tr>
       <td>Element with a <a href="http://www.w3.org/html/wg/drafts/html/master/editing.html#the-hidden-attribute">hidden</a> attribute </td>
       <td>The aria-hidden state set to "true" </td>
-      <td>&nbsp;</td>
-      <td>not tested yet</td>
-      <td>&nbsp;</td>
+      <td>hidden</td>
+      <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
+      <td class="support">PASS</td>
     </tr>
     <tr>
       <td>Element without a <a href="http://www.w3.org/html/wg/drafts/html/master/editing.html#the-hidden-attribute">hidden</a> attribute </td>
       <td>The aria-hidden state set to "false" </td>
       <td>&nbsp;</td>
-      <td>not tested yet</td>
-      <td>&nbsp;</td>
+      <td><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20">, <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"></td>
+      <td class="support">PASS</td>
     </tr>
   </tbody>
 </table>
