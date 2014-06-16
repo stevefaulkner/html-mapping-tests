@@ -8,5 +8,35 @@
 
 <body>
 <a  href="#">test</a>
+<br><br>
+<hr>
+<p>test case maps to one of the following:</p>
+<table border="1" width="90%">
+  <tbody>
+  <tr>
+      <th><abbr title="Microsoft Active Accessibility">MSAA</abbr> + UIA Express role</th>
+      <th><p>MSAA + IAccessible2 role and </p>
+      <p>other IAccessible2 features</p></th>
+      <th><abbr title="Accessibility Toolkit">ATK</abbr>/<abbr title="Assistive Technology - Service Provider Interface">AT-SPI</abbr> role</th>
+      <th><p>Mac OS X </p>
+        <p>AXRole<br>
+          AXSubrole<br>
+          AXRoleDescription[<a href="http://www.w3.org/TR/wai-aria-implementation/#ftn.note1">Note 1</a>]</p></th>
+    </tr>
+    <tr>
+      <td>ROLE_SYSTEM_LINK + STATE_LINKED
+        <p>Also, expose STATE_LINKED on all descendants</p></td>
+      <td>ROLE_SYSTEM_LINK + STATE_LINKED
+        <p>Also, expose STATE_LINKED on all descendants</p>
+        IAccessible2: Use AccessibleHypertext interface</td>
+      <td>ROLE_LINK</td>
+      <td>AXLink<br>
+        &lt;nil&gt;<br>
+        'link'</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+
 </body>
 </html>
