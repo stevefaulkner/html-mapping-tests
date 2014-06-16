@@ -4,11 +4,39 @@
 <meta charset="utf-8">
 <title>link element</title>
 <style>link {
-    display: inline !important;
+    display: block  !important; border:1px solid black; width:50px ; height:20px;
 }</style>
 </head>
 
 <body>
 <link itemprop="name" rel="author" href="/about">
+<hr>
+<p>PASS if &lt;link href&gt; element maps to one of the following:</p>
+<table border="1" width="90%">
+  <tbody>
+    <tr>
+      <th><abbr title="Microsoft Active Accessibility">MSAA</abbr> + UIA Express role</th>
+      <th><p>MSAA + IAccessible2 role and </p>
+        <p>other IAccessible2 features</p></th>
+      <th><abbr title="Accessibility Toolkit">ATK</abbr>/<abbr title="Assistive Technology - Service Provider Interface">AT-SPI</abbr> role</th>
+      <th><p>Mac OS X </p>
+        <p>AXRole<br>
+          AXSubrole<br>
+          AXRoleDescription</p></th>
+    </tr>
+    <tr>
+      <td>ROLE_SYSTEM_LINK + STATE_LINKED
+        <p>Also, expose STATE_LINKED on all descendants</p></td>
+      <td>ROLE_SYSTEM_LINK + STATE_LINKED
+        <p>Also, expose STATE_LINKED on all descendants</p>
+        IAccessible2: Use AccessibleHypertext interface</td>
+      <td>ROLE_LINK</td>
+      <td>AXLink<br>
+        &lt;nil&gt;<br>
+        'link'</td>
+    </tr>
+  </tbody>
+</table>
+<p>FAIL otherwise.</p>
 </body>
 </html>

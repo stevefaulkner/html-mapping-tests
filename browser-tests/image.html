@@ -7,14 +7,41 @@
 </head>
 
 <body>
-alt=""<br><br>
-<img alt="" src="http://www.html5accessibility.com/images/HTML5_Logo.png">
-<br><br>
-no alt<br><br>
-<img  src="http://www.html5accessibility.com/images/HTML5_Logo.png">
-<br><br>
-alt=test<br><br>
-<img alt="test" src="http://www.html5accessibility.com/images/HTML5_Logo.png">
-
+<p>alt=""<br><br>
+  <img alt="" src="http://www.html5accessibility.com/images/HTML5_Logo.png">
+  <br><br>
+  no alt<br><br>
+  <img  src="http://www.html5accessibility.com/images/HTML5_Logo.png">
+  <br><br>
+  alt=test<br><br>
+  <img alt="test" src="http://www.html5accessibility.com/images/HTML5_Logo.png">
+  
+</p>
+<hr>
+<p>PASS if &lt;img&gt; element maps to one of the following:</p>
+<table border="1" width="90%">
+  <tbody>
+    <tr>
+      <th><abbr title="Microsoft Active Accessibility">MSAA</abbr> + UIA Express role</th>
+      <th><p>MSAA + IAccessible2 role and </p>
+        <p>other IAccessible2 features</p></th>
+      <th><abbr title="Accessibility Toolkit">ATK</abbr>/<abbr title="Assistive Technology - Service Provider Interface">AT-SPI</abbr> role</th>
+      <th><p>Mac OS X </p>
+        <p>AXRole<br>
+          AXSubrole<br>
+          AXRoleDescription</p></th>
+    </tr>
+    <tr>
+      <td>ROLE_SYSTEM_GRAPHIC</td>
+      <td>ROLE_SYSTEM_GRAPHIC</td>
+      <td>ROLE_IMAGE</td>
+      <td>AXImage<br>
+        &lt;nil&gt;<br>
+        'image'</td>
+    </tr>
+  </tbody>
+</table>
+<p>FAIL otherwise.</p>
+<p>&nbsp;</p>
 </body>
 </html>
