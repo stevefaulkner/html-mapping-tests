@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>header element</title>
+<style> header {border:1px solid black;}
+</style>
+</head>
+
+<body>
+<header>
+header test
+</header>
+<hr>
+<p>PASS if header element maps to one of the following:</p>
+<table border="1" width="75%">
+  <tbody>
+    <tr>
+      <th><abbr title="Microsoft Active Accessibility">MSAA</abbr> + UIA Express role</th>
+      <th><p>MSAA + IAccessible2 role and </p>
+        <p>other IAccessible2 features</p></th>
+      <th><abbr title="Accessibility Toolkit">ATK</abbr>/<abbr title="Assistive Technology - Service Provider Interface">AT-SPI</abbr> role</th>
+      <th><p>Mac OS X </p>
+        <p>AXRole<br>
+          AXSubrole<br>
+          AXRoleDescription</p></th>
+    </tr>
+    <tr>
+      <td>Expose as text string in AriaRole</td>
+      <td>IAccessible2: Object attribute xml-roles:banner</td>
+      <td>Object attribute xml-roles:banner</td>
+      <td>AXGroup<br>
+        AXLandmarkBanner<br>
+        'banner'</td>
+    </tr>
+  </tbody>
+</table>
+<p>FAIL otherwise.</p>
+
+</body>
+</html>
