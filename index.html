@@ -160,7 +160,7 @@ header {
 <body>
 <div style="float:left; margin-right:1em;margin-bottom:1em"><img src="http://www.html5accessibility.com/images/HTML5_Logo.png" alt="HTML5" border="0" height="128" width="128"> <img src="http://www.html5accessibility.com/images/logo_reasonably_small.png" alt="Accessibility" height="128" width="128"></div>
 <h1>Implementation status for HTML5 element/attribute accessibility mappings</h1>
-<p>last updated 17/06/14</p>
+<p>last updated 18/06/14</p>
 <p style="clear:both">The HTML WG's <a href="http://dev.w3.org/html5/decision-policy/public-permissive-exit-criteria.html">Model CR Exit Criteria (Public Permissive version 3)</a> states</p>
 <blockquote>
   <p>For this specification to be advanced to Proposed Recommendation, there      must be at least two independent, interoperable implementations of each      feature. Each feature may be implemented by a different set of products,      there is no requirement that all features be implemented by a single      product.</p>
@@ -287,7 +287,9 @@ header {
       <td><a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-img-element">img</a> element whose <a href="http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-alt">alt</a> attribute's value is empty </td>
       <td>presentation role </td>
       <td><a href="browser-tests/image.html">image element</a></td>
-      <td><p><img src="http://www.html5accessibility.com/images/cross.png" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20">,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> , <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20">, </p>
+      <td><p><img src="http://www.html5accessibility.com/images/cross.png" alt="NO" width="16" height="16"> <img src="http://www.html5accessibility.com/images/firefox.png" alt="firefox" width="20" height="20"> (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1027018">FF bug</a>)<br>
+        ,<img src="http://www.html5accessibility.com/images/ie.png" alt="IE" width="20" height="20"> (<a href="https://connect.microsoft.com/IE/feedback/details/899541/feature-request-html5-implement-alt-as-role-presentation">IE bug</a>), <br>
+        <img src="http://www.html5accessibility.com/images/chrome.png" alt="chrome" width="20" height="20"> (<a href="https://code.google.com/p/chromium/issues/detail?id=386113">chrome bug</a>), </p>
       <p><img src="http://www.html5accessibility.com/images/tick.png" alt="YES" width="16" height="16"> <img src="http://www.html5accessibility.com/images/safari.png" alt="safari" width="20" height="20"></p></td>
       <td class="nosupport">FAIL</td>
     </tr>
