@@ -6,9 +6,44 @@
  function  test() {
 	   
 	   document.getElementById('in').indeterminate='true';
+	  
    }
    
    
+   </script>
+   
+   <script> 
+ // window.onload = init;
+//function init()
+//{
+//	var objCheck=document.getElementById('checkTest');
+//	objCheck.setAttribute('role','checkbox');
+//	objCheck.setAttribute('aria-checked','false');
+//objCheck.onclick = function()
+//{
+//	return doCheck(objCheck);
+//};
+//}
+//function doCheck(objCheck)
+//{
+//	var currentvalue = objCheck.getAttribute('aria-checked');
+//	switch(currentvalue)
+//	{
+//		case 'false':
+//		objCheck.setAttribute('src', 'mixed.gif');
+//		objCheck.setAttribute('aria-checked', 'mixed');
+//		break;
+//		case 'mixed':
+//		objCheck.setAttribute('src', 'checked.gif');
+//		objCheck.setAttribute('aria-checked', 'true');
+//		break;
+//		case 'true':
+//		objCheck.setAttribute('src', 'unchecked.gif');
+//		objCheck.setAttribute('aria-checked', 'false');
+//	}
+//	return true;
+//}
+
    </script>
    <style type="text/css">
 	body 
@@ -44,9 +79,12 @@ input {transform: scale(2); -webkit-transform: scale(2); }
 <h2>checked</h2>
 <input type="checkbox" checked>
 <h2><a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#dom-input-indeterminate">indeterminate</a></h2>
-<input type="checkbox" id="in">
+<input type="checkbox" id="in" >
 
+<!--<hr>
 
+<h2> example with aria-checked to polyfill the <a href="http://www.w3.org/html/wg/drafts/html/master/forms.html#dom-input-indeterminate">indeterminate</a> state</h2>
+<input type="checkbox" id="aria-in" onclick="tryit()">-->
 
 </body>
 </html>
